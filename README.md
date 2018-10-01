@@ -68,4 +68,6 @@ to use the connection i just added. I used some time trying to figure out why my
 
 Second problem, trying to figure out what "client side joins" means and if it is a bad thing and then how linq would "prevent" this.
 
+## Which aspect took the longest to solve
 
+The thing that took me the longest time and confused me the most was to figure out what client-side joins was, if it was a bad thing, and then how to find examples of that in both mySQL and linq. The thing that sidetracked me was to find out why this was a bad thing. The first few examples i saw didn't mention anything about client-side joins being bad, but just another way of doing it. After i found a few more examples and anwsers to others questions, i saw a patterne, that it would give a performance decrease to join tables on the client. After i figured that out it was easier to concentrate about finding examples that would showcase that.
