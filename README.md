@@ -1,7 +1,7 @@
 # UFO Linq Exercise
 
 
-##Technical Diary
+## Technical Diary
 
 0:00 Starting (installing linq)
 
@@ -10,7 +10,7 @@
 1:00 Looking at client-side joins (what it is and how its "prevented" by linq)
 
 
-##List of Google queries and websites visited
+## List of Google queries and websites visited
 
 https://www.linqpad.net
 
@@ -27,11 +27,6 @@ https://stackoverflow.com/questions/6629786/how-can-i-connect-to-mysql-via-linqp
 https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/org-service/linq-query-examples
 
 https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/basic-linq-query-operations
-
-
-First problem is how linqpad "works", meaning how to set it up so a simple query to the remote database can be made.
-I got confused because my query tab didn't automaticly point at the database when i added a new connection, i had to manually tell the tab i was using
-to use the connection i just added. I used some time trying to figure out why my C# statements didn't work like in the tutorials i had looked up
 
 "mysql vs linq"
 
@@ -55,8 +50,6 @@ https://stackoverflow.com/questions/38969123/how-to-avoid-multiple-joins-for-bet
 
 https://softwareengineering.stackexchange.com/questions/180012/is-there-any-reason-not-to-go-directly-from-client-side-javascript-to-a-database
 
-Second problem, trying to figure out what "client side joins" means and if it is a bad thing and then how linq would "prevent" this.
-
 "prevent client side joins linq"
 
 https://stackoverflow.com/questions/9115708/how-to-write-linq-query-to-prevent-duplicates-joins
@@ -66,3 +59,13 @@ http://weblogs.thinktecture.com/pawel/2016/04/entity-framework-prevent-redundant
 https://coding.abel.nu/2012/06/dont-use-linqs-join-navigate/
 
 https://docs.telerik.com/data-access/developers-guide/profiling-and-tuning/profiler-and-tuning-advisor/data-access-profiler-client-side-linq-queries
+
+##Problems encountered
+
+First problem is how linqpad "works", meaning how to set it up so a simple query to the remote database can be made.
+I got confused because my query tab didn't automaticly point at the database when i added a new connection, i had to manually tell the tab i was using
+to use the connection i just added. I used some time trying to figure out why my C# statements didn't work like in the tutorials i had looked up
+
+Second problem, trying to figure out what "client side joins" means and if it is a bad thing and then how linq would "prevent" this.
+
+
