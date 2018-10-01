@@ -60,7 +60,7 @@ https://coding.abel.nu/2012/06/dont-use-linqs-join-navigate/
 
 https://docs.telerik.com/data-access/developers-guide/profiling-and-tuning/profiler-and-tuning-advisor/data-access-profiler-client-side-linq-queries
 
-##Problems encountered
+## Problems encountered
 
 First problem is how linqpad "works", meaning how to set it up so a simple query to the remote database can be made.
 I got confused because my query tab didn't automaticly point at the database when i added a new connection, i had to manually tell the tab i was using
