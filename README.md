@@ -1,11 +1,16 @@
 # UFO Linq Exercise
 
+
+##Technical Diary
+
 0:00 Starting (installing linq)
 
 0:30 Just finished seeting up linqpad and made a simple query to get all customers, next i look at differences between mysql and linq
 
 1:00 Looking at client-side joins (what it is and how its "prevented" by linq)
 
+
+##List of Google queries and websites visited
 
 https://www.linqpad.net
 
