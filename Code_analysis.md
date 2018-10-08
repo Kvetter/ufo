@@ -2,6 +2,8 @@
 
 By Kasper Vetter and Phillip Brink
 
+Project used for exercises: https://github.com/CPHB-KEPP/LSD
+
 ## Exercise 1
 
 We have chosen to look for the following 10 checks
@@ -59,5 +61,9 @@ What we found were how to see the memory usage and keep track of the performance
 
 ### Performance Overview
 ![Analysis Report](https://github.com/Kvetter/ufo-linq/blob/master/img/Performence_Overview.png)
+
 ### Memory usages Overview
 ![Analysis Report](https://github.com/Kvetter/ufo-linq/blob/master/img/Memory_Overview.png)
+
+We have used a profiler called VisualVM, what we can see on Performance Overview is how much CPU, threads and memory are being used.
+Everything we see is live so as long as the program is running, we will gather data. On Memory usage we have some options, here we also see live how much memory the program is using, but can perform a garbage clean to see how much unecessary memory is being used. 
