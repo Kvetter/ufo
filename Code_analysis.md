@@ -38,6 +38,6 @@ We could not find any where neither in the plugin for Intellij or through the pr
 What we found were how to see the memory usage and keep track of the performance.
 
 ### Performance Overview
-![Analysis Report](https://github.com/Kvetter/ufo-linq/blob/master/img/Performance_Overview.png)
+![Analysis Report](https://github.com/Kvetter/ufo-linq/blob/master/img/Performence_Overview.png)
 ### Memory usages Overview
 ![Analysis Report](https://github.com/Kvetter/ufo-linq/blob/master/img/Memory_Overview.png)
