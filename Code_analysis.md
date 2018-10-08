@@ -26,15 +26,18 @@ We have chosen to look for the following 10 checks
   To ensure that we loop through all elements, we want to use the foreach loop instead of a for loop.
   
  ### Coding Rules 
- ![Coding Rules](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
+ ![Coding Rules](https://github.com/Kvetter/ufo-linq/blob/master/img/Coding_Rules.png)
  ### Analysis Resault
- ![Analysis Resault](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
+ ![Analysis Resault](https://github.com/Kvetter/ufo-linq/blob/master/img/Analysis_Resault.png)
  ### Analysis Report
-![Analysis Report](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
+![Analysis Report](https://github.com/Kvetter/ufo-linq/blob/master/img/PMD_Report.png)
 
 ## Exercise 2
 
+We could not find any where neither in the plugin for Intellij or through the profiler in VisualVM to see a bottleneck.
+What we found were how to see the memory usage and keep track of the performance.
+
 ### Performance Overview
-![Analysis Report](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
+![Analysis Report](https://github.com/Kvetter/ufo-linq/blob/master/img/Performance_Overview.png)
 ### Memory usages Overview
-![Analysis Report](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
+![Analysis Report](https://github.com/Kvetter/ufo-linq/blob/master/img/Memory_Overview.png)
