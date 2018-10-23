@@ -1,4 +1,4 @@
-# Code Analysis
+# Benchmark
 
 By Kasper Vetter and Phillip Brink
 
