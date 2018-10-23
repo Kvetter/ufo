@@ -33,6 +33,7 @@ while we expect the server: 46.101.253.149 to be the one that is closest to us
 
 ### Discuss the results
 
-The results are heavily influenced by the network connection. A slower connection would give a different result, but the order of which is slowest and which is faster should still be the same.
+The way we measured the time was with the "ping" command. That command is a simple way of testing the reachability of a host. The ping command meassures the "round-trip" time for a simple request. "Round-trip" time is the time it takes for the request to be send, and the response to be recieved. By doing that we only focus on the request istelf and dont spend time to meassure other features like the time it would take to execute a command or having to wait for our program to be compiled.
 
-We also don't see how our packages is being routed through to the server.  
+There are several things that could influence the results when working on measuring time over the internet. Peter Sestoft talk about this [benchmarking.pdf](https://www.itu.dk/people/sestoft/papers/benchmarking.pdf). He talks about when measuring the time it takes for a program to execute, you should be aware that the measurements are easily affected by other processes running at the same time. We avoid this since we dont measure our whole program, but just use the ping command, which simply calculates the time it took to reach the host and get a response. Things that may influence our trip time would be things like: distance, server response time, traffic/internet connection, number of network hops (meaning the specific route the signal is travelling). 
+ 
